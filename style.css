@@ -2,6 +2,7 @@
     /* comtainers */
         .section1{
             display: flex;
+            justify-content: space-around;
             background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 86.13%, #FFF 100%),
                         url('image/section1backgraund.png'),
                         lightgray 50% / cover no-repeat;
@@ -9,6 +10,16 @@
             height: 1084px;
             /* flex-shrink: 0; */
         }
+        .pe2{
+            border: 2px solid red
+        }
+        .box-arrow_nav{
+            width: 18px;
+            height: 18px;
+            
+
+        }
+
     /* text-styles */
         .text-style-logo{
             color: #FFF;
@@ -17,7 +28,7 @@
             letter-spacing: 0.28px;
             text-transform: capitalize;
         }
-        .text-style-navi{
+        .text-style-nav{
             color: #FFF;
             font-size: 18px;
             font-family: Gilroy-Medium;
