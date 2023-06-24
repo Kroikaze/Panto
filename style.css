@@ -1,0 +1,24 @@
+/* 1 first section */
+    /* comtainers */
+        .section1{
+            display: flex;
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 86.13%, #FFF 100%),
+                        url('image/section1backgraund.png'),
+                        lightgray 50% / cover no-repeat;
+            width: 1440px;
+            height: 1084px;
+            /* flex-shrink: 0; */
+        }
+    /* text-styles */
+        .text-style-logo{
+            color: #FFF;
+            font-size: 28px;
+            font-family: Gilroy-Bold;
+            letter-spacing: 0.28px;
+            text-transform: capitalize;
+        }
+        .text-style-navi{
+            color: #FFF;
+            font-size: 18px;
+            font-family: Gilroy-Medium;
+        }
