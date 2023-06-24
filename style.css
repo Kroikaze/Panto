@@ -16,8 +16,11 @@
         .box-arrow_nav{
             width: 18px;
             height: 18px;
-            
+        }
 
+        .button_furniture{
+            background: transparent;
+            border: none !important;
         }
 
     /* text-styles */
