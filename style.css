@@ -1,8 +1,8 @@
 /* 1 first section */
     /* comtainers */
         .section1{
-            display: flex;
-            justify-content: space-around;
+            
+            
             background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 86.13%, #FFF 100%),
                         url('image/section1backgraund.png'),
                         lightgray 50% / cover no-repeat;
@@ -10,10 +10,29 @@
             height: 1084px;
             /* flex-shrink: 0; */
         }
-        .pe2{
-            border: 2px solid red
+        .section1-1{
+            justify-content: space-between;
+            display: flex;
+            width: 100%;
         }
+        
+        .section1-2{
+            
+        }
+
+        .logo{
+            margin-top: 40px;
+            margin-left: 80px;
+            width: 78px;
+            height: 35px;
+        }
+
+        .pe2{
+            border: 1px solid red
+        }
+
         .box-arrow_nav{
+            margin: auto;
             width: 18px;
             height: 18px;
         }
@@ -23,11 +42,28 @@
             border: none !important;
         }
         .box-nav{
+            margin-top: 49px;
             width: 478px;
             height: 22px;
             /* flex-shrink: 0; */
             display: flex;
             justify-content: space-between;
+        }
+        .button_furniture{
+            margin: auto;
+            
+        }
+        .bag_icon{
+            margin-top: 41px;
+            margin-right: 80px;
+            width: 34px;
+            height: 34px;
+        }
+        .subtitle-box{
+            display: flex;
+            width: 606px;
+            flex-direction: column;
+            flex-shrink: 0;
         }
 
     /* text-styles */
@@ -42,4 +78,30 @@
             color: #FFF;
             font-size: 18px;
             font-family: Gilroy-Medium;
+        }
+        .logo-text{
+            color: #FFF;
+            font-size: 28px;
+            font-family: Gilroy-Bold;
+            letter-spacing: 0.28px;
+            text-transform: capitalize;
+        }
+
+        .h1-text{
+            color: #FFF;
+            text-align: center;
+            font-size: 80px;
+            font-family: Gilroy-Bold;
+            line-height: 130%;
+            letter-spacing: -0.8px;
+            text-transform: capitalize;
+        }
+
+        .subtitle-text{
+            
+            color: #FFF;
+            text-align: center;
+            font-size: 24px;
+            font-family: Gilroy-Regular;
+            line-height: 160%;
         }
