@@ -18,9 +18,16 @@
             height: 18px;
         }
 
-        .button_furniture{
+        .button_nav{
             background: transparent;
             border: none !important;
+        }
+        .box-nav{
+            width: 478px;
+            height: 22px;
+            /* flex-shrink: 0; */
+            display: flex;
+            justify-content: space-between;
         }
 
     /* text-styles */
