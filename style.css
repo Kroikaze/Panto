@@ -1,5 +1,10 @@
 /* 1 first section */
     /* comtainers */
+
+        .pe2{
+            border: 1px solid red
+        }
+
         .section1{
             
             
@@ -27,9 +32,6 @@
             height: 35px;
         }
 
-        .pe2{
-            border: 1px solid red
-        }
 
         .box-arrow_nav{
             margin: auto;
@@ -51,8 +53,16 @@
         }
         .button_furniture{
             margin: auto;
+            padding: 0px;
             
         }
+
+        /* спросить в чем смысл жизни!!! */
+        .furniture-box{
+            display: flex;
+            justify-content: space-between;
+        }
+
         .bag_icon{
             margin-top: 41px;
             margin-right: 80px;
@@ -60,10 +70,33 @@
             height: 34px;
         }
         .subtitle-box{
+            margin: auto;
             display: flex;
             width: 606px;
             flex-direction: column;
             flex-shrink: 0;
+        }
+
+        .input-search-box{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 344px;
+            padding: 8px 8px 8px 20px;
+            margin: auto;
+            border-radius: 42px;
+            border: 0.862px solid rgba(255, 255, 255, 0.60);
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(4px);
+        }
+
+        .search-icon-box{
+            display: flex;
+            padding: 11px;
+            align-items: flex-start;
+            gap: 10px;
+            border-radius: 24px;
+            background: #E58411;
         }
 
     /* text-styles */
@@ -104,4 +137,20 @@
             font-size: 24px;
             font-family: Gilroy-Regular;
             line-height: 160%;
+        }
+
+        .search-text{
+            color: #fff;
+            text-align: center;
+            font-size: 18px;
+            font-family: Gilroy-Regular;
+            line-height: 150%;
+            display: flex;
+            width: 130px;
+            height: 25px;
+            flex-direction: column;
+            flex-shrink: 0;
+            opacity: 0.800000011920929;
+            background: transparent;
+            border: none !important;
         }
