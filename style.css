@@ -14,16 +14,29 @@ header {
     padding: 40px 80px;
 }
 
+/* тут есть вопрос к align-items: center; */
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    gap: 64px;
     margin-top: 7px;
 }
 
 .button-furniture {
     background: transparent;
     border: none !important;
+    display: flex;
+    padding: 0px;
+    align-items: center;
+    gap: 8px;
+    
 }
+
+
+.nav-button-box {
+    display: flex;
+}   
 
 
 /* text-style */
@@ -40,4 +53,5 @@ nav {
     color: #FFF;
     font-size: 18px;
     font-family: Abel;
+    text-decoration: none;
 }
