@@ -1,0 +1,21 @@
+/* section 1 boxses */
+
+.section1 {
+    height: 1084px ;
+    width: 1440px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 86.13%, #FFF 100%),
+                url(img/section1-backgraund.png),
+                lightgray 50% / cover no-repeat;   
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 80px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7px;
+}
