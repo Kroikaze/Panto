@@ -36,7 +36,30 @@ nav {
 
 .nav-button-box {
     display: flex;
-}   
+} 
+
+.search-box {
+    display: flex;
+    justify-content: space-between;
+    width: 344px;
+    padding: 8px 8px 8px 20px;
+    align-items: center;
+    border-radius: 42px;
+    border: 0.9px solid rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(4px);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+}
+
+.button-saerch {
+    display: flex;
+    padding: 11px;
+    border-radius: 24px;
+    background: #E58411;
+    border-style: none;
+}
 
 
 /* text-style */
@@ -73,6 +96,18 @@ h1 {
     color: #FFF;
     text-align: center;
     font-size: 24px;
-    font-family: Abel;
+    font-family: Roboto Regular;
     line-height: 160%;
+}
+
+.search-input {
+    color: #fff;
+    text-align: start;
+    font-size: 18px;
+    line-height: 150%;
+    background: transparent;
+    border: none !important;
+}
+.search-input:focus {
+    outline: none;
 }
