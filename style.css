@@ -1,8 +1,10 @@
 /* section 1 boxses */
 
 .section1 {
-    height: 1084px ;
     width: 1440px;
+    height: 1084px ;
+    margin-left: auto;
+    margin-right: auto;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 86.13%, #FFF 100%),
                 url(img/section1-backgraund.png),
                 lightgray 50% / cover no-repeat;   
@@ -13,6 +15,10 @@ header {
     justify-content: space-between;
     padding: 40px 80px;
 }
+
+.nav-button-box {
+    display: flex;
+} 
 
 /* тут есть вопрос к align-items: center; */
 nav {
@@ -33,10 +39,15 @@ nav {
     
 }
 
+.bag-box {
+    position: relative;
+}
 
-.nav-button-box {
-    display: flex;
-} 
+.bag-counter {
+    position: absolute;
+    top: 3px;
+    right: -6px;
+}
 
 .search-box {
     display: flex;
