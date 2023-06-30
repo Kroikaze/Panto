@@ -1,33 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
 /* section 1 boxses */
 
 .section1 {
-    width: 1440px;
+    width: 100%;
     height: 1084px ;
     margin-left: auto;
     margin-right: auto;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 86.13%, #FFF 100%),
-                url(img/section1-backgraund.png),
-                lightgray 50% / cover no-repeat;   
+                url(img/section1-backgraund.png) center,
+                lightgray 50%;  
+    background-repeat: no-repeat; 
 }
 
-header {
+/*  */
+
+.header {
     display: flex;
     justify-content: space-between;
-    padding: 40px 80px;
+    padding: 40px 15%;
 }
 
-.nav-button-box {
+.nav {
     display: flex;
-} 
-
-/* тут есть вопрос к align-items: center; */
-nav {
-    display: flex;
-    justify-content: space-between;
     align-items: center;
-    gap: 64px;
-    margin-top: 7px;
+    
 }
+
+.nav-list-menu{
+    display: flex;
+}
+
+.button-furtinure {
+    position: relative;
+      
+}
+
+.nav-list-text {
+    font-size: 18px;
+    font-family: Abel;
+    margin: 0px 32px;
+    color: #ffffff;
+    display: block;   
+}
+
+
+
+.nav-hidden-list {
+    position: absolute;
+    left: 0;
+    width: 180px;
+    display: none;
+    
+}
+.button-furtinure:hover > .nav-hidden-list  {
+    display: block;
+}
+
+/*  */
 
 .button-furniture {
     background: transparent;
@@ -47,6 +82,13 @@ nav {
     position: absolute;
     top: 3px;
     right: -6px;
+    display: block;
+    border: 3px solid #E58411 ;
+    background-color: #E58411;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 900;
+    border-radius: 10px;
 }
 
 .search-box {
@@ -81,13 +123,6 @@ nav {
     font-family: Lobster;
     letter-spacing: 0.28px;
     text-transform: capitalize;
-}
-
-.nav-text-style {
-    color: #FFF;
-    font-size: 18px;
-    font-family: Abel;
-    text-decoration: none;
 }
 
 h1 {
