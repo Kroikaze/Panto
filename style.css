@@ -8,7 +8,6 @@
 /* section 1 boxses */
 
 .section1 {
-    width: 100%;
     height: 1084px ;
     margin-left: auto;
     margin-right: auto;
@@ -18,7 +17,7 @@
     background-repeat: no-repeat; 
 }
 
-/*  */
+/* nav */
 
 .header {
     display: flex;
@@ -62,7 +61,7 @@
     display: block;
 }
 
-/*  */
+/* nav */
 
 .button-furniture {
     background: transparent;
