@@ -5,8 +5,6 @@
     text-decoration: none;
 }
 
-
-
 .cover {
     height: 1084px ;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 86.13%, #FFF 100%),
@@ -14,8 +12,6 @@
                 lightgray 50%;  
     background-repeat: no-repeat; 
 }
-
-
 
 .header {
     display: flex;
@@ -55,20 +51,17 @@
     gap: 8px;   
 }
 
-
-
 .nav-hidden-list {
     position: absolute;
     left: 0;
     width: 180px;
     display: none;
-    
+  
 }
+
 .button-furtinure:hover > .nav-hidden-list  {
     display: block;
 }
-
-/* nav */
 
 .button-furniture {
     background: transparent;
@@ -76,8 +69,7 @@
     display: flex;
     padding: 0px;
     align-items: center;
-    gap: 8px;
-    
+    gap: 8px;   
 }
 
 .bag-box {
@@ -120,9 +112,6 @@
     border-style: none;
 }
 
-
-/* text-style */
-
 .logo-text-style {
     color: #FFF;
     font-size: 28px;
@@ -162,6 +151,76 @@
     background: transparent;
     border: none !important;
 }
+
 .search-input:focus {
     outline: none;
+}
+
+.button-cover-box-left {
+    margin-left: 190px;
+    margin-top: 82px;
+   
+
+}
+
+.cover-buttons {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button-left {
+    width: 32px;
+    height: 32px;
+    border: 2px solid #fff;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    backdrop-filter: blur(4px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wite-centr-for-button {
+    background-color: #fff;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #fff;
+    border-radius: 24px;
+    margin: auto;
+}
+
+.left-button-ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 112px;
+    height: 56px;
+    background: url(img/frame-cover-button.svg);
+    background-repeat: no-repeat;
+    backdrop-filter: blur(4px);
+}
+
+.no-blur-box {
+    padding-bottom: 25px;
+}
+
+.button-circle {
+    height: 24px;
+    width: 24px;
+    border: 2px solid #FFF;
+    border-radius: 24px;
+    margin-bottom: 9px;
+}
+
+.orange-button {
+    background-color: #E58411;
+}
+
+.aqua-button {
+    background-color: #00D6C9;
+}
+
+.gray-button {
+    background-color: #7C7C7C;
 }
