@@ -5,24 +5,29 @@
     text-decoration: none;
 }
 
-/* section 1 boxses */
 
-.section1 {
+
+.cover {
     height: 1084px ;
-    margin-left: auto;
-    margin-right: auto;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 86.13%, #FFF 100%),
                 url(img/section1-backgraund.png) center,
                 lightgray 50%;  
     background-repeat: no-repeat; 
 }
 
-/* nav */
+
 
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 40px 15%;
+    padding: 40px 80px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1278px;
+    left: 0;
+    right: 0;
+    top: 0;
 }
 
 .nav {
@@ -45,7 +50,9 @@
     font-family: Abel;
     margin: 0px 32px;
     color: #ffffff;
-    display: block;   
+    display: flex;
+    align-items: center;
+    gap: 8px;   
 }
 
 
@@ -124,7 +131,9 @@
     text-transform: capitalize;
 }
 
-h1 {
+.h1 {
+    margin: 0;
+    padding-top: 10%;
     color: #FFF;
     font-size: 80px;
     text-align: center;
