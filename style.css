@@ -186,6 +186,17 @@
     background-color: #7C7C7C;
 }
 
+.check {
+    width: 5px;
+    height: 8px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    margin-left: auto;
+    margin-right: auto;
+    transform: rotate(0.12turn);
+    margin-bottom: 3px;
+}
+
 .cover-bottom {
     position: relative;
     width: 1440px;
