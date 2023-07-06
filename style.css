@@ -6,6 +6,7 @@
 }
 
 .cover {
+    /* width: 1440px; */
     height: 1084px ;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 86.13%, #FFF 100%),
                 url(img/section1-backgraund.png) center,
@@ -112,7 +113,7 @@
     border-style: none;
 }
 
-.logo-text-style {
+.logo-text {
     color: #FFF;
     font-size: 28px;
     font-family: Lobster;
@@ -121,8 +122,8 @@
 }
 
 .h1 {
-    margin: 0;
-    padding-top: 10%;
+    /* margin: 0; */
+    padding-top: 154px;
     color: #FFF;
     font-size: 80px;
     text-align: center;
@@ -133,7 +134,7 @@
     margin-bottom: 14px;
 }
 
-.subtitle-text-style {
+.subtitle-text {
     display: flex;
     flex-direction: column;
     color: #FFF;
@@ -156,122 +157,22 @@
     outline: none;
 }
 
-.cover-buttons {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1440px;
-}
-
-
-.button-cover-box{
-    width: 360px;
-    box-sizing: content-box;
-
-}
-
-.bottom-div {
-    width: 32px;
-    height: 32px;
-    border: 2px solid #fff;
-    border-radius: 28px;
-    display: flex;
-    align-items: center;
-    backdrop-filter: blur(4px);
-}
-
-.button-left {
-    margin-left: 100px;
-    margin-top: 134px;   
-}
-
-.bottom-left-center {
-    width: 54px;
-    height: 54px;
-    margin-left: -82px;
-    margin-top: 72px;
-}
-
-.bottom-rihgt-centr {
-    margin-left: 72px;
-    margin-top: 180px;
-}
-
-.bottom-right {
-    margin-left: 288px;
-    margin-top: 214px;
-}
-
-.button-left:hover ~ .left-button-ul {
-    display: flex;
-}
-
-.bottom-left-center:hover ~ .left-ceter-button-ul{
-    display: flex;
-}
-
-.bottom-rihgt-centr:hover ~ .right-ceter-button-ul {
-    display: flex;
-}
-
-.bottom-right:hover ~ .right-button-ul {
-    display: flex;
-}
-
-.button-ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 112px;
-    height: 55px;
-    background-repeat: no-repeat;
-    background-image: url(img/frame-cover-button.svg);
-    /* backdrop-filter: blur(4px); не смог победмть */
-    padding-bottom: 13px;
-    display: none;
-}
-
-.left-button-ul {
-    margin-left: 17%;
-    margin-top: -28%;
-}
-
-.left-ceter-button-ul {
-    margin-left: -30%;
-    margin-top: -34%; 
-}
-
-.right-ceter-button-ul {
-    margin-left: 9%;
-    margin-top: -28%;
-}
-
-.right-button-ul {
-    margin-left: 69%;
-    margin-top: -28%;
-}
-
-.wite-centr-for-button {
-    background-color: #fff;
-    width: 10px;
-    height: 10px;
-    border: 1px solid #fff;
-    border-radius: 24px;
-    margin: auto;
-}
-
-.right-center-center {
-    width: 15px;
-    height: 15px;
-}
-
-.button-circle {
-    height: 24px;
+/* cover-buttons */
+.cover-button-ul {
     width: 24px;
+    height: 24px;
     border: 2px solid #FFF;
-    border-radius: 28px;
-    margin-bottom: 9px;
+    border-radius: 9999px;
 }
+
+.cover-button-ul-box {
+    display: flex;
+    background-image: url(img/frame-cover-button.svg);
+    padding: 12px 12px 20px 12px;
+    gap: 8px;
+    margin-bottom: 25px;
+    display: none;
+    }
 
 .orange-button {
     background-color: #E58411;
@@ -281,6 +182,108 @@
     background-color: #00D6C9;
 }
 
-.gray-button {
+.greey-button {
     background-color: #7C7C7C;
+}
+
+.cover-bottom {
+    position: relative;
+    width: 1440px;
+    height: 530px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wite-circle-for-button {
+    width: 8px;
+    height: 8px;
+    border: 1px solid #FFF;
+    background-color: #FFF;
+    border-radius: 9999px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.cover-button-borderblur {
+    width: 32px;
+    height: 32px;
+    border: 2px solid #fff;
+    backdrop-filter: blur(4px);
+    border-radius: 9999px;
+    display: flex;
+    align-items: center; 
+    margin-left: 38px;
+    margin-right: 38px;  
+}
+
+.cover-button-left-box {
+    position: absolute;
+    /* left: 6.4%;
+    bottom: 60%; */
+    left: 62px;
+    bottom: 320px; 
+}
+
+.cover-button-leftcentr-box {
+    position: absolute;
+    left: 252px;
+    bottom: 358px;
+}
+
+.cover-button-leftcentr-size{
+    height: 52px;
+    width: 52px;
+    margin-left: 28px;
+    margin-right: 28px;
+}
+
+.wite-circle-for-button-leftcentr{
+    height: 15px;
+    width: 15px;
+}
+
+.cover-button-rightcentr-box {
+    position: absolute;
+    right: 578px;
+    bottom: 278px;
+}
+
+.cover-button-right-box {
+    position: absolute;
+    right: 0;
+    bottom: 236px;
+}
+/* hover section */
+
+.cover-button-left-box:hover > .cover-button-ul-box {
+    display: flex;
+} 
+
+.cover-button-leftcentr-box:hover > .cover-button-ul-box {
+    display: flex;
+}
+
+.cover-button-rightcentr-box:hover > .cover-button-ul-box {
+    display: flex;
+}
+
+.cover-button-right-box:hover > .cover-button-ul-box {
+    display: flex;
+}
+
+/* cover-buttons end */
+
+
+/*  */
+.advxantage-box {
+    padding: 120px 80px;
+    width: 1326px;
+}
+
+.advantages {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 28px;
 }
