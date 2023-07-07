@@ -152,14 +152,14 @@
 }
 
 /* cover-buttons */
-.cover-button-ul {
+.cover-button-list {
     width: 24px;
     height: 24px;
     border: 2px solid #FFF;
     border-radius: 9999px;
 }
 
-.cover-button-ul-box {
+.cover-button-list-box {
     display: flex;
     background-image: url(img/frame-cover-button.svg);
     padding: 12px 12px 20px 12px;
@@ -261,19 +261,19 @@
 }
 /* hover section */
 
-.cover-button-left-box:hover > .cover-button-ul-box {
+.cover-button-left-box:hover > .cover-button-list-box {
     display: flex;
 } 
 
-.cover-button-leftcentr-box:hover > .cover-button-ul-box {
+.cover-button-leftcentr-box:hover > .cover-button-list-box {
     display: flex;
 }
 
-.cover-button-rightcentr-box:hover > .cover-button-ul-box {
+.cover-button-rightcentr-box:hover > .cover-button-list-box {
     display: flex;
 }
 
-.cover-button-right-box:hover > .cover-button-ul-box {
+.cover-button-right-box:hover > .cover-button-list-box {
     display: flex;
 }
 
