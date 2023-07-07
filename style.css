@@ -287,9 +287,50 @@
 
 
 /*  */
+.advantages {
+    gap: 28px;
+}
+
 .advxantage-box {
     padding: 120px 80px;
-    width: 1326px;
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    justify-content: space-around;
+}
+
+.h2 {
+    font-size: 42px;
+    font-weight: 600;
+    font-family: Roboto Regular;
+    margin-right: 130px;
+}
+
+.undercover-h3 {
+    font-size: 24px;
+    font-family: Roboto Regular;
+}
+
+.undercover-content {
+    margin-top: 20px;
+    width: 284px;
+    
+}
+
+.undercover-text {
+    font-family: Roboto;
+}
+
+.undercover-link {
+    display: flex;
+    align-items: center;
+    margin-top: 14px;
+    gap: 13px;
+    color: #E58411;
+    font-family: Roboto;
 }
 
 .advantages {
