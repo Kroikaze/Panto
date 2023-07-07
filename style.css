@@ -322,6 +322,8 @@
 
 .undercover-text {
     font-family: Roboto;
+    line-height: 185%;
+    color: #a09f9f;
 }
 
 .undercover-link {
