@@ -5,13 +5,22 @@
     text-decoration: none;
 }
 
+body {
+    font-family: sans-serif;
+}
+
 .cover {
     /* width: 1440px; */
     height: 1084px ;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 86.13%, #FFF 100%),
                 url(img/section1-backgraund.png) center,
                 lightgray 50%;  
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 160px 30px;
 }
 
 .header {
@@ -19,9 +28,9 @@
     justify-content: space-between;
     padding: 40px 80px;
     position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1278px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* width: 1278px; */
     left: 0;
     right: 0;
     top: 0;
@@ -44,16 +53,17 @@
 
 .nav-list-text {
     font-size: 18px;
-    font-family: Abel;
     padding: 0px 32px;
     color: #ffffff;
     display: flex;
     align-items: center;
-    gap: 8px;   
+    gap: 8px; 
+    font-weight: 400;  
 }
 
 .nav-hidden-list {
     position: absolute;
+    top: 100%;
     left: 0;
     width: 180px;
     display: none;
@@ -85,7 +95,7 @@
     background-color: #E58411;
     color: #FFF;
     font-size: 18px;
-    font-weight: 900;
+    font-weight: 400;
     border-radius: 9999px;
 }
 
@@ -99,8 +109,8 @@
     border: 0.9px solid rgba(255, 255, 255, 0.6);
     background: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(4px);
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     margin-top: 45px;
 }
 
@@ -113,17 +123,15 @@
 }
 
 .main-title {
-    padding-top: 154px;
     color: #FFF;
     font-size: 80px;
     text-align: center;
-    font-family: Abel;
     line-height: 130%;
     letter-spacing: -0.8px;
     text-transform: capitalize;
-    width: 700px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 842px;
+    /* margin-left: auto;
+    margin-right: auto; */
 }
 
 .subtitle-text {
@@ -132,11 +140,10 @@
     color: #FFF;
     text-align: center;
     font-size: 24px;
-    font-family: Roboto Regular;
     line-height: 160%;
     width: 566px;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
 }
 
 .search-input {
@@ -193,10 +200,10 @@
 
 .cover-bottom {
     position: relative;
-    width: 1440px;
+    /* width: 1440px; */
     height: 530px;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
 }
 
 .wite-circle-for-button {
@@ -287,11 +294,11 @@
 
 .advxantage-box {
     padding: 120px 80px;
-    width: 1440px;
+    /* width: 1440px; */
     display: flex;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     box-sizing: border-box;
     justify-content: space-around;
 }
@@ -299,13 +306,11 @@
 .h2 {
     font-size: 42px;
     font-weight: 600;
-    font-family: Roboto Regular;
     margin-right: 130px;
 }
 
 .undercover-h3 {
     font-size: 24px;
-    font-family: Roboto Regular;
 }
 
 .undercover-content {
@@ -315,7 +320,6 @@
 }
 
 .undercover-text {
-    font-family: Roboto;
     line-height: 185%;
     color: #a09f9f;
 }
@@ -326,7 +330,6 @@
     margin-top: 14px;
     gap: 13px;
     color: #E58411;
-    font-family: Roboto;
 }
 
 .advantages {
