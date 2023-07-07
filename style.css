@@ -58,6 +58,7 @@ body {
     display: flex;
     align-items: center;
     gap: 8px; 
+    letter-spacing: -0.8px;
     font-weight: 400;  
 }
 
@@ -200,6 +201,7 @@ body {
 
 .cover-bottom {
     position: relative;
+    width: 100%;
     /* width: 1440px; */
     height: 530px;
     /* margin-left: auto;
@@ -295,6 +297,7 @@ body {
 .advxantage-box {
     padding: 120px 80px;
     /* width: 1440px; */
+    width: 100%;
     display: flex;
     align-items: center;
     /* margin-left: auto;
