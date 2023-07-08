@@ -3,6 +3,7 @@
     margin: 0;
     list-style: none;
     text-decoration: none;
+    box-sizing: border-box;
 }
 
 body {
@@ -22,8 +23,6 @@ body {
     align-items: center;
     padding: 160px 30px;
     position: relative;
-    box-sizing: border-box;
-    
 }
 
 .header {
@@ -231,8 +230,8 @@ body {
     border-radius: 9999px;
     display: flex;
     align-items: center; 
-    margin-left: 39px;
-    margin-right: 38px;  
+    margin-left: 40px;
+    margin-right: 40px;  
 }
 
 .cover-button-left-box {
@@ -295,6 +294,9 @@ body {
 
 /*  */
 .advantages {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     gap: 28px;
 }
 
@@ -314,6 +316,9 @@ body {
 .h2 {
     font-size: 42px;
     font-weight: 600;
+}
+
+.advantages-h2 {
     width: 290px;
 }
 
@@ -323,7 +328,8 @@ body {
 
 .undercover-content {
     margin-top: 20px;
-    width: 284px;
+    width: 348px;
+    letter-spacing: 1px;
     
 }
 
@@ -340,9 +346,179 @@ body {
     color: #E58411;
 }
 
-.advantages {
+
+
+/* shop section */
+
+.shop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 108px;
+    background: #F7F7F7;
+}
+
+.shop-product-swift {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    gap: 28px;
+    background-color: #eee;
+    margin-top: 38px;
+    border-radius: 9999px;
+    gap: 10px;
+    padding: 6px;
 }
+
+.shop-text-button-swich {
+    font-size: 18px;
+    line-height: 185%;
+    padding: 2px 20px;
+    border: 0;
+    border-radius: 9999px;
+
+}
+
+.shop-swich-button {
+    padding: 4px;
+    border-radius: 9999px;   
+}
+
+.active-button {
+    background-color: #fff;
+}
+
+.showcase {
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+    gap: 42px;
+    position: relative;
+}
+
+.showcase-left-buttom {
+    width: 26px;
+    height: 26px;
+    padding: 12px;
+    border-radius: 9999px;
+    box-sizing: content-box;
+    background-color: #fff;
+    border: 0;
+    position: absolute;
+    left: 20px;
+    bottom: 210px;
+}
+
+.showcase-cell {
+    border-radius: 20px;
+
+    padding: 27px 21px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00)
+                58%, #FFF 50%) #f7f7f7 50%
+
+}
+
+
+.product-img-box {
+    position: relative;
+    width: 268px;
+    height: 240px;
+    background-color: #f7f7f7;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.product-img {
+    position: absolute;
+    top: -50px;
+}
+
+.category-product-box {
+    margin-top: 13px;
+}
+
+
+.category-product {
+    color: #8D8D8D;
+    line-height: 125%;
+}
+
+.name-product {
+    color: #0D1B39;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 125%;
+}
+
+.star-box {
+    display: flex;
+    margin-top: 6px;
+}
+
+.price-box {
+    margin-top: 36px;
+    display: flex;
+    align-items: center;
+
+}
+
+.dollar-icon-box {
+    margin-bottom: 8px;
+}
+
+.dollar-icon {
+    color: #0D1B39;
+    font-size: 15px;
+    font-weight: 600;
+    
+}
+
+.price {
+    color: #0D1B39;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 125%;
+}
+
+.add-button {
+    width: 24px;
+    height: 24px;
+    background-color: #0D1B39;
+    border-radius: 9999px;
+    padding: 12px;
+    box-sizing: content-box;
+    margin-left: 198px;
+    border: 0;
+}
+
+.showcase-right-buttom {
+    width: 26px;
+    height: 26px;
+    padding: 12px;
+    border-radius: 9999px;
+    box-sizing: content-box;
+    background-color: #fff;
+    border: 0;
+    position: absolute;
+    right: 20px;
+    bottom: 210px;
+}
+
+.showcase-vievall-link {
+    margin-top: 65px;
+    display: flex;
+    align-items: center;
+    color: #E58411;
+    gap: 12px;
+    font-size: 18px;
+    line-height: 185%;
+}
+
+/* shop section end*/
+
+.help-box {
+    width: 100%;
+    height: 320px;
+}
+
