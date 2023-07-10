@@ -697,7 +697,7 @@ body {
 .user-name {
     font-size: 18px;
     text-transform: capitalize;
-    color: #1E1E1E;
+    color: #1e1e1e;
     font-weight: 600;
 }
 
@@ -707,7 +707,7 @@ body {
 }
 
 .user-reviews {
-    color: #1E1E1E;
+    color: #1e1e1e;
     font-size: 14px;
     opacity: 0.8;
     margin-top: 22px;
@@ -741,9 +741,6 @@ body {
     bottom: -30px;
     z-index: -1;
 }
-
-
-
 
 /* тестовая зона */
 
