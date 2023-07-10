@@ -742,9 +742,78 @@ body {
     z-index: -1;
 }
 
-/* тестовая зона */
+/* footer */
 
-.help-box {
-    width: 100%;
-    height: 320px;
+.fotter-box {
+    padding: 118px 188px 118px 188px;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-about {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+}
+
+.about {
+    width: 292px;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 110px;
+}
+
+.footer-list-cell {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-list-subcell {
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-orange-text {
+    color: #e58411;
+    font-size: 17px;
+    letter-spacing: -0.2px;
+}
+
+.footer-gray-text {
+    color: #1e1e1e;
+    font-size: 15px;
+    line-height: 160%;
+    opacity: 0.8;
+}
+
+.fotter-follow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.terms {
+    margin-left: 680px;
+}
+
+.footer-box-down {
+    padding: 0 188px 56px 188px;
+    gap: 40px;
+}
+
+.copyright {
+    color: #1e2833;
+    font-size: 15px;
+    letter-spacing: -0.2px;
+    opacity: 0.5;
 }
