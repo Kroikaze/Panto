@@ -226,14 +226,14 @@ body {
 
 .cover-button-left-box {
     position: absolute;
-    left: 100px;
-    bottom: 272px;
+    left: 60px;
+    bottom: 318px;
 }
 
 .cover-button-leftcentr-box {
     position: absolute;
-    left: 326px;
-    bottom: 300px;
+    left: 246px;
+    bottom: 346px;
 }
 
 .cover-button-leftcentr-size {
@@ -250,14 +250,14 @@ body {
 
 .cover-button-rightcentr-box {
     position: absolute;
-    right: 720px;
-    bottom: 216px;
+    right: 564px;
+    bottom: 274px;
 }
 
 .cover-button-right-box {
     position: absolute;
-    right: 18px;
-    bottom: 172px;
+    right: -6px;
+    bottom: 240px;
 }
 
 .cover-button-left-box:hover > .cover-button-list-box {
@@ -284,21 +284,15 @@ body {
 
 .advantages-box {
     padding: 120px 80px;
-    width: 100%;
     display: flex;
     align-items: center;
-    box-sizing: border-box;
     justify-content: space-between;
-    gap: 130px;
+    gap: 20px;
 }
 
 .section-title {
     font-size: 42px;
     font-weight: 600;
-}
-
-.advantages-title {
-    /* width: 290px; */
 }
 
 .undercover-title {
@@ -309,6 +303,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 284px;
 
 }
 
@@ -327,6 +322,35 @@ body {
     gap: 13px;
     color: #e58411;
 }
+
+/* test section */
+
+.test-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 80px;
+    gap: 20px;
+}
+
+.test-text {
+    display: block;
+    line-height: 185%;
+    color: #a09f9f;
+    letter-spacing: 1px;
+}
+
+.info-box {
+    display: grid;
+    /* grid-template-columns: repeat(3, auto); */
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: repeat(3, 284px);
+    grid-auto-flow: column;
+    gap: 20px;
+}
+
+
+/* test section end */
 
 /* shop section */
 
