@@ -302,9 +302,11 @@ body {
 .undercover-content {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     width: 284px;
-
+    flex-grow: 1;
+    position: relative;
+    padding-bottom: 30px;
 }
 
 .undercover-text {
@@ -321,6 +323,9 @@ body {
     margin-top: 14px;
     gap: 13px;
     color: #e58411;
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 
 /* test section */
@@ -342,11 +347,17 @@ body {
 
 .info-box {
     display: grid;
-    /* grid-template-columns: repeat(3, auto); */
     grid-template-rows: repeat(3, auto);
     grid-template-columns: repeat(3, 284px);
     grid-auto-flow: column;
     gap: 20px;
+}
+
+.more-info-link-test {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    color: #e58411;
 }
 
 
