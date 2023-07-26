@@ -6,6 +6,26 @@
     box-sizing: border-box;
 }
 
+a,
+button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+a,
+button:focus {
+    outline: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+}
+
 body {
     font-family: sans-serif;
 }
@@ -376,19 +396,17 @@ body {
     padding: 6px;
 }
 
+
+
 .shop-text-button-swich {
-    color: #1E1E1E;
+    padding: 4px;
+    color: #1E1E1E50;
     font-size: 18px;
     line-height: 185%;
     padding: 2px 20px;
     border: 0;
     border-radius: 9999px;
-    opacity: 0.5;
-}
-
-.shop-swich-button {
-    padding: 4px;
-    border-radius: 9999px;
+    
 }
 
 .active-button {
@@ -407,19 +425,13 @@ body {
     gap: 42px;
 }
 
-.showcase-cell-box {
-    border-radius: 20px;
-    background-color: #fff;
-    overflow: hidden;
-}
-
 .showcase-sell-top {
     height: 240px;
     display: flex;
     justify-content: center;
     background-color: #fafafa;
     width: 268px;
-
+    border-radius: 20px 20px 0 0;
 }
 
 .product-image {
@@ -429,23 +441,36 @@ body {
 
 .showcase-sell-bottom {
     background: #fff;
-    padding: 13px 20px 28px 20px;
-    gap: 6px;
+    padding: 12px 20px 28px 20px;
     display: flex;
     flex-direction: column;
+    border-radius: 0 0 20px 20px;
+}
+
+.category-product {
+    color: #8D8D8D;
+    font-size: 16px;
 }
 
 .name-product {
     color: #0D1B39;
     font-size: 22px;
     font-weight: 600;
+    margin-top: 6px;
+}
+
+.star-box {
+    display: flex;
+    align-items: center;
+    gap: 1px;
+    margin-top: 6px;
 }
 
 .price-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 36px;
 }
 
 .price-subbox {
@@ -463,11 +488,10 @@ body {
     padding: 12px;
     border: none;
     background-color: #0D1B39;
+    display: flex;
 }
 
 .arow-bottom-box {
-    width: 26px;
-    height: 26px;
     padding: 12px;
     border-radius: 9999px;
     background-color: #fff;
@@ -475,7 +499,6 @@ body {
     box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.06);
     display: flex;
     align-items: center;
-    box-sizing: content-box;
 }
 
 .showcase-left-buttom {
@@ -500,12 +523,10 @@ body {
     font-size: 18px;
     line-height: 185%;
 }
-/*  */
 
 .experiences-box {
     display: flex;
     justify-content: space-between;
-    margin-top: 306px;
     position: relative;
 }
 
@@ -558,15 +579,17 @@ body {
 .experiences-text {
     margin-top: 20px;
     text-transform: capitalize;
-    width: 423px;
     line-height: 150%;
     color: #1E1E1E;
     font-size: 42px;
     font-weight: 500;
 }
 
+.experiences-text-size {
+    width: 423px;
+}
+
 .experiences-description {
-    display: block;
     font-size: 18px;
     line-height: 185%;
     opacity: 0.8;
@@ -638,7 +661,6 @@ body {
     background-color: #f7f7f7;
 }
 
-/* content sectoin end */
 
 /* testimonials  */
 
@@ -674,9 +696,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     padding: 50px 40px 18px 40px;
     border-radius: 20px;
     width: 330px;
+    height: 42%;
 }
 
 .testimonials-user-icon {
@@ -705,7 +729,6 @@ body {
     opacity: 0.8;
     margin-top: 22px;
     text-align: center;
-    display: block;
 }
 
 .opasity-star {
@@ -716,14 +739,14 @@ body {
 .testimonials-left-buttom {
     position: absolute;
     left: -25px;
-    top: 142px;
+    top: 40%;
     z-index: 1;
 }
 
 .testimonials-right-buttom {
     position: absolute;
     right: -25px;
-    top: 142px;
+    top: 40%;
 }
 
 .testimonials-imag-shadow {
@@ -735,7 +758,6 @@ body {
     z-index: -1;
 }
 
-/* footer */
 
 .fotter-box {
     padding: 118px 188px 118px 188px;
@@ -756,23 +778,10 @@ body {
     width: 292px;
 }
 
-.footer-list {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 110px;
-}
-
-.footer-list-cell {
-    gap: 20px;
+.footer-cell {
     display: flex;
     flex-direction: column;
-}
 
-.footer-list-subcell {
-    gap: 16px;
-    display: flex;
-    flex-direction: column;
 }
 
 .footer-orange-text {
@@ -795,10 +804,6 @@ body {
     gap: 16px;
 }
 
-.terms {
-    margin-left: 680px;
-}
-
 .footer-box-down {
     padding: 0 188px 56px 188px;
     gap: 40px;
@@ -809,4 +814,10 @@ body {
     font-size: 15px;
     letter-spacing: -0.2px;
     opacity: 0.5;
+}
+
+.last-box {
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
