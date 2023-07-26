@@ -799,9 +799,21 @@ body {
 
 .fotter-follow {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     gap: 16px;
+}
+
+.social-image{
+    width: 20px;
+    height: 20px;
+}
+
+.thx-for-no-gap{
+    margin-top: 20px;
+}
+
+.need-gap{
+    margin-top: 16px;
 }
 
 .footer-box-down {
