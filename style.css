@@ -23,7 +23,7 @@ button:focus {
 ul {
     margin: 0;
     padding: 0;
-    list-style: none; 
+    list-style: none;
 }
 
 body {
@@ -377,7 +377,6 @@ body {
     color: #e58411;
 }
 
-/*  */
 .shop {
     display: flex;
     flex-direction: column;
@@ -396,17 +395,12 @@ body {
     padding: 6px;
 }
 
-
-
 .shop-text-button-swich {
-    padding: 4px;
-    color: #1E1E1E50;
+    color: #1e1e1e50;
     font-size: 18px;
     line-height: 185%;
     padding: 2px 20px;
-    border: 0;
     border-radius: 9999px;
-    
 }
 
 .active-button {
@@ -448,12 +442,12 @@ body {
 }
 
 .category-product {
-    color: #8D8D8D;
+    color: #8d8d8d;
     font-size: 16px;
 }
 
 .name-product {
-    color: #0D1B39;
+    color: #0d1b39;
     font-size: 22px;
     font-weight: 600;
     margin-top: 6px;
@@ -478,17 +472,24 @@ body {
     align-items: center;
 }
 
-.dollar-icon {
-    padding-bottom: 6px;
-
-}
-
 .add-button {
     border-radius: 9999px;
     padding: 12px;
     border: none;
-    background-color: #0D1B39;
+    background-color: #0d1b39;
     display: flex;
+}
+
+.add-button-alternative {
+    background-color: #0d1b39;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 48px;
+    height: 48px;
+    border-radius: 9999px;
+    color: white;
+    font-size: 40px;       
 }
 
 .arow-bottom-box {
@@ -580,7 +581,7 @@ body {
     margin-top: 20px;
     text-transform: capitalize;
     line-height: 150%;
-    color: #1E1E1E;
+    color: #1e1e1e;
     font-size: 42px;
     font-weight: 500;
 }
@@ -660,9 +661,6 @@ body {
     border-radius: 20px;
     background-color: #f7f7f7;
 }
-
-
-/* testimonials  */
 
 .testimonials {
     display: flex;
@@ -758,7 +756,6 @@ body {
     z-index: -1;
 }
 
-
 .fotter-box {
     padding: 118px 188px 118px 188px;
     background-color: #f7f7f7;
@@ -781,7 +778,6 @@ body {
 .footer-cell {
     display: flex;
     flex-direction: column;
-
 }
 
 .footer-orange-text {
@@ -803,16 +799,16 @@ body {
     gap: 16px;
 }
 
-.social-image{
+.social-image {
     width: 20px;
     height: 20px;
 }
 
-.thx-for-no-gap{
+.thx-for-no-gap {
     margin-top: 20px;
 }
 
-.need-gap{
+.need-gap {
     margin-top: 16px;
 }
 
