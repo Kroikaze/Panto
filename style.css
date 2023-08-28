@@ -47,7 +47,7 @@ body {
     position: relative;
 }
 
-.top-menu {
+.menu {
     display: flex;
     justify-content: space-between;
     padding: 40px 80px;
@@ -58,47 +58,52 @@ body {
     z-index: 1;
 }
 
-.navigation {
+.nav {
     display: flex;
     align-items: center;
 }
 
-.navigation-button-box {
+.nav__button-box {
     display: flex;
 }
 
-.navigation-list-menu {
+.nav__list__menu {
     display: flex;
 }
 
-.button-furtinure {
+.nav__button__furtinure {
     position: relative;
 }
 
-.navigation-list-text {
+.nav__list__text {
     font-size: 18px;
     padding: 0px 32px;
     color: #fff;
     display: flex;
     align-items: center;
     gap: 8px;
-    letter-spacing: -0.6px;
     font-weight: 400;
 }
 
-.navigation-hidden-list {
+.nav__drop-list__text {
+    font-size: 16px;
+}
+
+.nav__drop-list {
     position: absolute;
     top: 100%;
     left: 0;
     width: 180px;
     display: none;
+    padding-top: 11px;
+    gap: 11px;
 }
 
-.button-furtinure:hover > .navigation-hidden-list {
-    display: block;
+.nav__button__furtinure:hover > .nav__drop-list {
+    display: grid;  
 }
 
-.button-furniture {
+.button__furniture {
     background: transparent;
     border: none;
     display: flex;
@@ -107,11 +112,11 @@ body {
     gap: 8px;
 }
 
-.bag-box {
+.bag {
     position: relative;
 }
 
-.bag-counter {
+.bag__counter {
     position: absolute;
     top: 3px;
     right: -6px;
@@ -119,7 +124,7 @@ body {
     padding: 3px;
     background-color: #e58411;
     color: #fff;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 400;
     border-radius: 9999px;
 }
@@ -276,7 +281,7 @@ body {
 
 .cover-button-right-box {
     position: absolute;
-    right: -6px;
+    right: 0;
     bottom: 240px;
 }
 
@@ -342,7 +347,7 @@ body {
     margin-top: 14px;
     gap: 13px;
     color: #e58411;
-    position: absolute;
+    /* position: absolute; */
     left: 0;
     bottom: 0;
 }
