@@ -63,7 +63,7 @@ body {
     align-items: center;
 }
 
-.nav__button-box {
+.nav__button-list {
     display: flex;
 }
 
@@ -71,7 +71,7 @@ body {
     display: flex;
 }
 
-.nav__button__furtinure {
+.nav__button__furniture {
     position: relative;
 }
 
@@ -99,7 +99,7 @@ body {
     gap: 11px;
 }
 
-.nav__button__furtinure:hover > .nav__drop-list {
+.nav__button__furniture:hover > .nav__drop-list {
     display: grid;
 }
 
@@ -112,11 +112,11 @@ body {
     gap: 8px;
 }
 
-.bag {
+.cart {
     position: relative;
 }
 
-.bag__counter {
+.cart__counter {
     position: absolute;
     top: 3px;
     right: -6px;
@@ -142,7 +142,7 @@ body {
     margin-top: 46px;
 }
 
-.cover__saerch__button {
+.cover__search__button {
     display: flex;
     padding: 12px;
     border-radius: 9999px;
@@ -206,7 +206,7 @@ body {
     background-color: #00d6c9;
 }
 
-.greey__button {
+.grey__button {
     background-color: #7c7c7c;
 }
 
@@ -236,7 +236,7 @@ body {
     border-radius: 9999px;
 }
 
-.cover__button__borderblur {
+.cover__button__border-blur {
     width: 32px;
     height: 32px;
     border: 2px solid #fff;
@@ -255,25 +255,25 @@ body {
     bottom: 318px;
 }
 
-.cover__button__leftcentr-box {
+.cover__button__left-center-box {
     position: absolute;
     left: 246px;
     bottom: 346px;
 }
 
-.cover__button__leftcentr-size {
+.cover__button__left-center-size {
     height: 52px;
     width: 52px;
     margin-left: 28px;
     margin-right: 28px;
 }
 
-.wite-circle-for-button-leftcentr {
+.wite-circle-for-button-left-center {
     height: 15px;
     width: 15px;
 }
 
-.cover__button__rightcentr-box {
+.cover__button__right-center-box {
     position: absolute;
     right: 564px;
     bottom: 274px;
@@ -289,11 +289,11 @@ body {
     display: flex;
 }
 
-.cover__button__leftcentr-box:hover > .cover__button_list-box {
+.cover__button__left-center-box:hover > .cover__button_list-box {
     display: flex;
 }
 
-.cover__button__rightcentr-box:hover > .cover__button_list-box {
+.cover__button__right-center-box:hover > .cover__button_list-box {
     display: flex;
 }
 
@@ -399,7 +399,7 @@ body {
     padding: 6px;
 }
 
-.shop-text-button-swich {
+.shop-text-button-switch {
     color: #1e1e1e50;
     font-size: 18px;
     line-height: 185%;
@@ -471,7 +471,7 @@ body {
     margin-top: 36px;
 }
 
-.price-subbox {
+.price-sub-box {
     display: flex;
     align-items: center;
 }
@@ -496,7 +496,7 @@ body {
     font-size: 40px;
 }
 
-.arow-bottom-box {
+.arrow-button-box {
     padding: 12px;
     border-radius: 9999px;
     background-color: #fff;
@@ -506,20 +506,20 @@ body {
     align-items: center;
 }
 
-.showcase-left-buttom {
+.showcase-left-button {
     position: absolute;
     left: -26px;
     bottom: 210px;
     z-index: 1;
 }
 
-.showcase-right-buttom {
+.showcase-right-button {
     position: absolute;
     right: -26px;
     bottom: 210px;
 }
 
-.showcase-vievall-link {
+.showcase-view-all-link {
     margin-top: 65px;
     display: flex;
     align-items: center;
@@ -540,7 +540,7 @@ body {
     background-color: #f7f7f7;
 }
 
-.backgraund-box-up {
+.background-box-up {
     width: 495px;
     height: 422px;
     top: -66px;
@@ -548,7 +548,7 @@ body {
     border-radius: 20px;
 }
 
-.backgraund-box-right {
+.background-box-right {
     width: 495px;
     height: 301px;
     top: 72px;
@@ -556,7 +556,7 @@ body {
     border-radius: 20px;
 }
 
-.backgraund-box-shadow {
+.background-box-shadow {
     width: 555px;
     height: 423px;
     filter: blur(25px);
@@ -565,7 +565,7 @@ body {
     left: 27px;
 }
 
-.content-imag {
+.content-image {
     position: relative;
     z-index: 1;
 }
@@ -733,25 +733,25 @@ body {
     text-align: center;
 }
 
-.opasity-star {
+.opacity-star {
     width: 19px;
     height: 19px;
 }
 
-.testimonials-left-buttom {
+.testimonials-left-button {
     position: absolute;
     left: -25px;
     top: 40%;
     z-index: 1;
 }
 
-.testimonials-right-buttom {
+.testimonials-right-button {
     position: absolute;
     right: -25px;
     top: 40%;
 }
 
-.testimonials-imag-shadow {
+.testimonials-image-shadow {
     position: absolute;
     width: 300px;
     height: 380px;
@@ -760,7 +760,7 @@ body {
     z-index: -1;
 }
 
-.fotter-box {
+.footer-box {
     padding: 118px 188px 118px 188px;
     background-color: #f7f7f7;
     display: flex;
@@ -797,7 +797,7 @@ body {
     opacity: 0.8;
 }
 
-.fotter-follow {
+.footer-follow {
     display: flex;
     align-items: center;
     gap: 16px;
