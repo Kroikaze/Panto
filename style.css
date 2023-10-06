@@ -71,7 +71,7 @@ body {
     display: flex;
 }
 
-.nav__button__furniture {
+.nav__button-furniture {
     position: relative;
 }
 
@@ -236,7 +236,7 @@ body {
     border-radius: 9999px;
 }
 
-.cover__button__border-blur {
+.cover__action__effect {
     width: 32px;
     height: 32px;
     border: 2px solid #fff;
@@ -684,6 +684,10 @@ body {
     margin-top: 260px;
     gap: 20px;
     padding: 0 126px 240px 126px;
+}
+
+.testimonials-box{
+    position: relative;
 }
 
 .testimonials-list {
