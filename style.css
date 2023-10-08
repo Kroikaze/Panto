@@ -47,7 +47,7 @@ body {
     position: relative;
 }
 
-.site-top {
+.head {
     display: flex;
     justify-content: space-between;
     padding: 40px 80px;
@@ -63,7 +63,7 @@ body {
     align-items: center;
 }
 
-.nav__button-list {
+.nav__menu {
     display: flex;
 }
 
@@ -71,7 +71,7 @@ body {
     display: flex;
 }
 
-.nav__button-furniture {
+.nav__action-furniture {
     position: relative;
 }
 
@@ -99,7 +99,7 @@ body {
     gap: 11px;
 }
 
-.nav__button__furniture:hover > .nav__drop-list {
+.nav__action__furniture:hover > .nav__drop-list {
     display: grid;
 }
 
