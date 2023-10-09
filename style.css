@@ -63,19 +63,19 @@ body {
     align-items: center;
 }
 
-.nav__menu {
+.nav-menu {
     display: flex;
 }
 
-.nav__list__menu {
+.nav-list-menu {
     display: flex;
 }
 
-.nav__action-furniture {
+.nav-menu-action{
     position: relative;
 }
 
-.nav__list__text {
+.nav-menu-text {
     font-size: 18px;
     padding: 0px 32px;
     color: #fff;
@@ -85,11 +85,17 @@ body {
     font-weight: 400;
 }
 
-.nav__drop-list__text {
+.nav-menu-drop-text {
+    padding: 0px 32px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 400;
     font-size: 16px;
 }
 
-.nav__drop-list {
+.nav-menu-drop {
     position: absolute;
     top: 100%;
     left: 0;
@@ -99,7 +105,7 @@ body {
     gap: 11px;
 }
 
-.nav__action__furniture:hover > .nav__drop-list {
+.nav-menu-action:hover > .nav-menu-drop {
     display: grid;
 }
 
@@ -116,7 +122,7 @@ body {
     position: relative;
 }
 
-.cart__counter {
+.cart-counter {
     position: absolute;
     top: 3px;
     right: -6px;
