@@ -139,7 +139,7 @@ body {
     position: relative;
 }
 
-.cover-page_title {
+.cover-title {
     color: #fff;
     font-size: 80px;
     text-align: center;
@@ -184,7 +184,7 @@ body {
     outline: none;
 }
 
-.cover-search-button {
+.cover-search-action {
     display: flex;
     padding: 12px;
     border-radius: 9999px;
@@ -192,13 +192,13 @@ body {
     border-style: none;
 }
 
-.cover-button_left {
+.cover-action_left {
     position: absolute;
     left: 60px;
     bottom: 318px;
 }
 
-.cover-button-color_set {
+.cover-action-change {
     background-image: url(img/frame-cover-button.svg);
     padding: 12px 12px 20px 12px;
     gap: 8px;
@@ -207,7 +207,7 @@ body {
     display: none;
 }
 
-.cover-button-set_circle {
+.cover-action-set_circle {
     width: 24px;
     height: 24px;
     border: 2px solid #fff;
@@ -226,7 +226,7 @@ body {
     background-color: #7c7c7c;
 }
 
-.cover-button-color_set-check {
+.cover-action-change-check {
     display: block;
     width: 5px;
     height: 8px;
@@ -252,7 +252,7 @@ body {
     margin-right: 40px;
 }
 
-.cover-button-white_center {
+.cover-action-center {
     width: 8px;
     height: 8px;
     border: 1px solid #fff;
@@ -260,57 +260,51 @@ body {
     border-radius: 9999px;
 }
 
-.cover-button_left:hover > .cover-button-color_set {
+.cover-action_left:hover > .cover-action-change {
     display: flex;
 }
 
-.cover-button-left_center {
+.cover-action_left-center {
     position: absolute;
     left: 246px;
     bottom: 346px;
 }
 
-.bigger_button  {
+.big_action  {
     height: 52px;
     width: 52px;
     margin-left: 28px;
     margin-right: 32px;
 }
 
-.bigger_wite_center {
+.big_center {
     height: 15px;
     width: 15px;
 }
 
-.cover-button-left_center:hover > .cover-button-color_set {
+.cover-action_left-center:hover > .cover-action-change {
     display: flex;
 }
 
-.cover-button-right_center {
+.cover-action_right-center {
     position: absolute;
     right: 564px;
     bottom: 274px;
 }
 
-.cover-button-right_center:hover > .cover-button-color_set {
+.cover-action_right-center:hover > .cover-action-change {
     display: flex;
 }
 
-.cover-button-right {
+.cover-action_right {
     position: absolute;
     right: 0;
     bottom: 240px;
 }
 
-.cover-button-right:hover > .cover-button-color_set {
+.cover-action_right:hover > .cover-action-change {
     display: flex;
 }
-
-/* .cover__bottom {
-    position: relative;
-    width: 100%;
-    height: 530px;
-} */
 
 /* advantages */
 
